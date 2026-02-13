@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { Photo, EditSettings, Lut, DEFAULT_SETTINGS } from '../types';
-import { processImage } from '../utils/imageProcessing';
+import { Photo, EditSettings, Lut, DEFAULT_SETTINGS } from '../types.ts';
+import { processImage } from '../utils/imageProcessing.ts';
 
 interface ProcessedThumbnailProps {
   photo: Photo;

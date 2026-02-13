@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GoogleGenAI } from "@google/genai";
 import { Sparkles, Loader2, AlertTriangle, Check } from 'lucide-react';
-import { EditSettings } from '../types';
+import { EditSettings } from '../types.ts';
 
 interface GeminiAssistantProps {
   currentImageBase64: string | null;

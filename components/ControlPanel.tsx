@@ -1,5 +1,5 @@
 import React from 'react';
-import { EditSettings, Lut } from '../types';
+import { EditSettings, Lut } from '../types.ts';
 import { Sun, Contrast, Cloud, CloudRain, Zap, Palette, Upload, Sliders, Target, Droplet, Scissors, Info } from 'lucide-react';
 
 interface ControlPanelProps {

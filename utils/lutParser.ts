@@ -1,4 +1,4 @@
-import { Lut } from '../types';
+import { Lut } from '../types.ts';
 
 export const parseCubeLut = (name: string, content: string): Lut => {
   const lines = content.split('\n');

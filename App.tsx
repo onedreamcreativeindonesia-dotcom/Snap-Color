@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { Photo, EditSettings, DEFAULT_SETTINGS, Lut } from './types';
-import { processImage } from './utils/imageProcessing';
-import { parseCubeLut } from './utils/lutParser';
-import { PhotoGrid } from './components/PhotoGrid';
-import { ControlPanel } from './components/ControlPanel';
-import { ProcessedThumbnail } from './components/ProcessedThumbnail';
+import { Photo, EditSettings, DEFAULT_SETTINGS, Lut } from './types.ts';
+import { processImage } from './utils/imageProcessing.ts';
+import { parseCubeLut } from './utils/lutParser.ts';
+import { PhotoGrid } from './components/PhotoGrid.tsx';
+import { ControlPanel } from './components/ControlPanel.tsx';
+import { ProcessedThumbnail } from './components/ProcessedThumbnail.tsx';
 import { FolderOpen, Download, LayoutGrid, Maximize2, ChevronLeft, ChevronRight, Crop, Check, X, Undo2, Redo2, Sparkles, Image as ImageIcon } from 'lucide-react';
-import { GeminiAssistant } from './components/GeminiAssistant';
+import { GeminiAssistant } from './components/GeminiAssistant.tsx';
 
 type HistoryItem = Record<string, EditSettings>;
 

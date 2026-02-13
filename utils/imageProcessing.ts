@@ -1,4 +1,4 @@
-import { EditSettings, Lut } from '../types';
+import { EditSettings, Lut } from '../types.ts';
 
 const clamp = (value: number) => Math.max(0, Math.min(255, value));
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Photo, EditSettings, Lut } from '../types';
+import { Photo, EditSettings, Lut } from '../types.ts';
 import { Image as ImageIcon, CheckCircle, Circle, ZoomIn } from 'lucide-react';
-import { ProcessedThumbnail } from './ProcessedThumbnail';
+import { ProcessedThumbnail } from './ProcessedThumbnail.tsx';
 
 interface PhotoGridProps {
   photos: Photo[];
